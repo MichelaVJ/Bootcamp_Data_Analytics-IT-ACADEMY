@@ -19,9 +19,9 @@ Proceso de creación:
 
 ![Screenshot 2026-03-18 at 10.23.48.png](assests/Screenshot_2026-03-18_at_10.23.48.png)
 
-![Screenshot 2026-03-18 at 10.28.34.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.28.34.png)
+![Screenshot 2026-03-18 at 10.28.34.png](assests/Screenshot_2026-03-18_at_10.28.34.png)
 
-![Screenshot 2026-03-18 at 10.30.27.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.30.27.png)
+![Screenshot 2026-03-18 at 10.30.27.png](assests/Screenshot_2026-03-18_at_10.30.27.png)
 
 <aside>
 
@@ -31,31 +31,31 @@ Se han renombrado algunos campos para adaptarlos a una nomenclatura más habitua
 
 Dado que la información de **`users`** estaba dividida en dos archivos en función de su origen, en el modelo final se ha decidido consolidarla en una sola tabla y añadir un campo adicional para indicar la región de origen de cada registro.
 
-![Screenshot 2026-03-18 at 10.31.55.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.31.55.png)
+![Screenshot 2026-03-18 at 10.31.55.png](assests/Screenshot_2026-03-18_at_10.31.55.png)
 
-![Screenshot 2026-03-18 at 10.32.43.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.32.43.png)
+![Screenshot 2026-03-18 at 10.32.43.png](assests/Screenshot_2026-03-18_at_10.32.43.png)
 
-![Screenshot 2026-03-18 at 10.33.10.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.33.10.png)
+![Screenshot 2026-03-18 at 10.33.10.png](assests/Screenshot_2026-03-18_at_10.33.10.png)
 
-![Screenshot 2026-03-18 at 10.34.33.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.34.33.png)
+![Screenshot 2026-03-18 at 10.34.33.png](assests/Screenshot_2026-03-18_at_10.34.33.png)
 
-![Screenshot 2026-03-18 at 10.35.01.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.35.01.png)
+![Screenshot 2026-03-18 at 10.35.01.png](assests/Screenshot_2026-03-18_at_10.35.01.png)
 
-![Screenshot 2026-03-18 at 10.36.55.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.36.55.png)
+![Screenshot 2026-03-18 at 10.36.55.png](assests/Screenshot_2026-03-18_at_10.36.55.png)
 
-![Screenshot 2026-03-18 at 10.38.31.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.38.31.png)
+![Screenshot 2026-03-18 at 10.38.31.png](assests/Screenshot_2026-03-18_at_10.38.31.png)
 
 Tablas creadas en el modelo:
 
-![Screenshot 2026-03-18 at 10.40.27.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.40.27.png)
+![Screenshot 2026-03-18 at 10.40.27.png](assests/Screenshot_2026-03-18_at_10.40.27.png)
 
 Creamos las conexiones entre dimensiones y tabla de hechos:
 
-![Screenshot 2026-03-18 at 10.41.04.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.41.04.png)
+![Screenshot 2026-03-18 at 10.41.04.png](assests/Screenshot_2026-03-18_at_10.41.04.png)
 
 Modelo resultante:
 
-![Screenshot 2026-03-18 at 10.42.00.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.42.00.png)
+![Screenshot 2026-03-18 at 10.42.00.png](assests/Screenshot_2026-03-18_at_10.42.00.png)
 
 Por último se añade la última tabla del modelo: **`products`**
 
@@ -63,27 +63,27 @@ En la tabla de hechos **`transactions`** se observa que **`products_ids`** conti
 
 Para facilitar futuras consultas, conviene normalizar este campo en una **tabla intermedia**, donde cada fila relacione una transacción con un producto. Así se resuelve la relación **muchos a muchos (M:N)** y se simplifican los **JOIN** con la tabla de productos.
 
-![Screenshot 2026-03-18 at 10.44.20.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.44.20.png)
+![Screenshot 2026-03-18 at 10.44.20.png](assests/Screenshot_2026-03-18_at_10.44.20.png)
 
-![Screenshot 2026-03-18 at 10.45.25.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.45.25.png)
+![Screenshot 2026-03-18 at 10.45.25.png](assests/Screenshot_2026-03-18_at_10.45.25.png)
 
-![Screenshot 2026-03-18 at 10.46.50.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.46.50.png)
+![Screenshot 2026-03-18 at 10.46.50.png](assests/Screenshot_2026-03-18_at_10.46.50.png)
 
-![Screenshot 2026-03-18 at 10.47.40.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.47.40.png)
+![Screenshot 2026-03-18 at 10.47.40.png](assests/Screenshot_2026-03-18_at_10.47.40.png)
 
 **MODELO FINAL**
 
-![Screenshot 2026-03-18 at 10.49.05.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.49.05.png)
+![Screenshot 2026-03-18 at 10.49.05.png](assests/Screenshot_2026-03-18_at_10.49.05.png)
 
 El modelo final podría decirse que no se trata de un esquema en estrella puro, sino de un modelo dimensional que incorpora una tabla puente. Por su estructura, presenta una organización más próxima a un esquema snowflake que a una estrella clásica ya que incorpora una tabla puente.
 
 **Ejercicio 1.1 Usuarios con más de 80 transacciones**
 
-![Screenshot 2026-03-18 at 10.56.42.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.56.42.png)
+![Screenshot 2026-03-18 at 10.56.42.png](assests/Screenshot_2026-03-18_at_10.56.42.png)
 
 **Ejercicio 1.2 Media de amount por `iban` de las tarjetas de la compañía Donec Ltd.**
 
-![Screenshot 2026-03-18 at 10.57.40.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.57.40.png)
+![Screenshot 2026-03-18 at 10.57.40.png](assests/Screenshot_2026-03-18_at_10.57.40.png)
 
 # Nivel 2
 
@@ -91,12 +91,12 @@ El modelo final podría decirse que no se trata de un esquema en estrella puro, 
 
 **¿Cuántas tarjetas están activas?**
 
-![Screenshot 2026-03-18 at 11.00.36.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_11.00.36.png)
+![Screenshot 2026-03-18 at 11.00.36.png](assests/Screenshot_2026-03-18_at_11.00.36.png)
 
-![Screenshot 2026-03-18 at 11.01.07.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_11.01.07.png)
+![Screenshot 2026-03-18 at 11.01.07.png](assests/Screenshot_2026-03-18_at_11.01.07.png)
 
 # Nivel 3
 
 **Ejercicio 3.1 Necesitamos conocer el número de veces que se ha vendido cada producto.**
 
-![Screenshot 2026-03-18 at 11.02.16.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_11.02.16.png)
+![Screenshot 2026-03-18 at 11.02.16.png](assests/Screenshot_2026-03-18_at_11.02.16.png)
