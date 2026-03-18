@@ -17,7 +17,7 @@ Las modificaciones de tipos de dato se han realizado durante la importación con
 
 Proceso de creación:
 
-![Screenshot 2026-03-18 at 10.23.48.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.23.48.png)
+![Screenshot 2026-03-18 at 10.23.48.png](assests/Screenshot_2026-03-18_at_10.23.48.png)
 
 ![Screenshot 2026-03-18 at 10.28.34.png](Sprint_4%20Michela%20Vistarini/Screenshot_2026-03-18_at_10.28.34.png)
 
